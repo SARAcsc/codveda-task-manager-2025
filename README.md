@@ -74,7 +74,7 @@ TECHNICAL SKILLS DEMONSTRATED:
 - Git version control
 
 PROJECT LINKS:
-- GitHub Repository: https://github.com/[YOUR-USERNAME]/codveda-task-manager-2025
+- GitHub Repository: https://github.com/SARAcsc/codveda-task-manager-2025
 - Backend API: http://localhost:5000/api/tasks
 - Frontend App: http://localhost:3000
 
