@@ -1,0 +1,66 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  padding: 2rem;
+}
+.app { max-width: 600px; margin: 0 auto; }
+.container {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+.form {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+.form input {
+  flex: 1;
+  padding: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px 0 0 8px;
+  font-size: 1rem;
+}
+.form button {
+  padding: 0 1.5rem;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+.task-list {
+  list-style: none;
+}
+.task-list li {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+.task-list li.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+.task-list input[type="checkbox"] {
+  margin-right: 1rem;
+}
+.actions button {
+  margin-left: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.actions .delete {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
